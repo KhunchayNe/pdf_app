@@ -1,9 +1,9 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'mobile.dart';
+import 'mobile.dart' if (dart.library.html) 'web.dart';
 import 'package:syncfusion_flutter_pdf/pdf.dart';
 
-import 'dart:typed_data' if (dart.library.html) 'dart:html';
+import 'dart:typed_data';
 import 'package:flutter/services.dart' show rootBundle;
 
 void main() {
