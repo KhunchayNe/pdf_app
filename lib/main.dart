@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'mobile.dart';
 import 'package:syncfusion_flutter_pdf/pdf.dart';
 
-import 'dart:typed_data';
+import 'dart:typed_data' if (dart.library.html) 'dart:html';
 import 'package:flutter/services.dart' show rootBundle;
 
 void main() {
